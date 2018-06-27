@@ -56,14 +56,15 @@ nav ul {
   width: 80%;
   height: 80%;
   text-align: center;
-  display: inline-block;
+  display: inline-flex;
+  justify-content: center;
 }
 nav ul li {
   height: 100%;
   margin-top: auto;
   margin-bottom: auto;
   position: relative;
-  display: inline-block;
+  display: flex;
   vertical-align: middle;
   outline: 2px solid blue;
   width: auto;
