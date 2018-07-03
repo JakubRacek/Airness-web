@@ -16,12 +16,19 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
+	text-decoration: none;
 	margin: 0;
 	padding: 0;
 	border: 0;
 	font-size: 100%;
 	font: inherit;
 	/* vertical-align: baseline; */
+}
+html{
+	height: 100%;
+}
+body{
+	height: 100%;
 }
 h1 {
   margin: 0;
@@ -50,8 +57,11 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
 section{
   padding: 0;
   margin: 0;
+}
+html{
+	height: 100%;
+	width: 100%;
 }

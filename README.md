@@ -1,2 +1,2 @@
 # Airness-web
-Web pre Airness
+Informacny web pre Airness s.r.o. posobiacu vo sfere vzduchotechniky a klimatizacie.
