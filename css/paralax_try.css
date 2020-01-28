@@ -1,0 +1,36 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.aa{
+  position: relative;
+  background-color: black;
+  content: "";
+  display: block;
+  height: 10%;
+  width: 100%;
+}
+.aa::after{
+  content: "";
+  display: block;
+  height: 10%;
+  width: 100%;
+  background-color: orange;
+  margin-top: 0;
+}
+.b{ position: relative;
+  background-color: gray;
+  content: "";
+  /* display: block; */
+  width: 100%;
+  height: 90%;
+}
+.b::after{
+  /* position: relative; */
+  content: "after";
+  display: block;
+  background-color: snow;
+  height: 10%;
+  width: 100%;
+}
