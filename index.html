@@ -1,117 +1,441 @@
 <!DOCTYPE html>
-<html lang="sk-SK" dir="ltr">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=cp1250">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="sk">
+<head>
+	<meta charset="utf-8">
+	<!-- <meta charset="ISO 8859-2"> -->
+	<!-- <meta charset="windows-1250"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!--Bootstrap.css-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+	<link rel="stylesheet" type="text/css" href="css/hover.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap-arrows.css">
+	<link href="css/bootstrap-arrows.css" data-angle='stylesheet' type='text/css'/>
+	<script src="https://kit.fontawesome.com/832526b701.js" crossorigin="anonymous"></script>
+	<title>Airness</title>
+</head>
+<body>
+	<div id="mdb-preloader" class="flex-center">
+  		<div id="preloader-markup">
+  		</div>
+	</div>
+	<!-- <nav class="navbar navbar-expand-md navbar-static-top navbar-default navbar-dark bg-dark"> -->
+
+	<nav class="navbar navbar-expand-md navbar-dark sticky-top bg-dark navigacia noselect">
+		<button class="navbar-toggler text-white" type="button" data-toggle="collapse" data-target="#navi_toggle" aria-controls="navi_toggle" aria-expanded="false" aria-label="Toggle navigation">
+    	<span class="navbar-toggler-icon text-white"></span>
+  		</button>
+  		
+  		<a class="navbar-brand text-white nevan" href="#airnesshome" title="">
+  			AIRNESS
+  		</a>
+  		<div class="collapse navbar-collapse text-white" id="navi_toggle">
+  			<ul class="navbar-nav nav-pills cus_nav text-white">
+				<li class="nav-item dropdown active">
+					<a class="nav-link dropdown-toggle hvr-left-borders navi-shad" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dezinfekcia O<sub>3</sub></a>
+					<div class="dropdown-menu">
+						<a class="dropdown-item hvr-underline-from-left o3-about" href="#dezinfekcia">O dezinfekcii</a>
+						<p class="dropdown-header sub_h bg-secondary"><span class="badge badge-dark">Chcem dezinfikovať:</span></p>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item hvr-underline-from-left" href="#">Komerčné priestory</a>
+						<a class="dropdown-item hvr-underline-from-left" href="#">Domácnosť</a>
+						<a class="dropdown-item hvr-underline-from-left" href="#">Auto</a>
+					</div>
+				</li>
+				<li class="nav-item navi-shad"><a class="nav-link hvr-mid-borders text-white" href="#" title="">Vzduchotechnika</a></li>
+				<li class="nav-item navi-shad"><a class="nav-link hvr-mid-borders text-white" href="#" title="">Klimatizácia</a></li>
+				<li class="nav-item navi-shad"><a class="nav-link hvr-mid-borders text-white" href="#cennik" title="">Cenník</a></li>
+				<li class="nav-item navi-shad"><a class="nav-link hvr-right-borders text-white" id="navkont" href="#contact" title="">
+					<i class="far fa-address-card"></i> Kontakt</a></li>
+			</ul>
+  		</div>
+  		<a class="navbar-brand hvr-grow-shadow ra_icon fb-icon" href="#"></a>
+  		<a class="navbar-brand hvr-grow-shadow ra_icon yt-icon" href="#"></a>
+	</nav>
+	<!-- <div class="navbar sticky-top bg-dark work-info text-center pb-0 pt-1">
+		<p class="text-warning pb-0 pt-0 mb-0 mt-0 mx-auto">Na stránke sa pracuje - môže sa preto stať, že tu občas nájdete Lorem Ipsum :)<br>
+			Predpokladaný dátum spustenia je 30.04</p>
+	</div> -->
+
+	<main class="noselect">
+		<section>
+			<div class="jumbotron text-center mt-0 mb-0 pt-4 pb-4 section-header">
+				<div id="dezinfekcia">
+				</div>
+				<h2>Dezinfekcia Ozónom</h2>
+			</div>
+			<div class="container-fluid min-vh-100 pt-4 pb-4 pl-0 pr-0" id="dezinf">
+				<div class="row ml-0 mr-0 mt-4 p-lg-4">
+	    			<div class="col-lg-3 text-center pb-4 skuska">
+	    				<img src="css/pictures/covid.png" class="mr-0 covid">
+	    			</div>
+		   			<div class="col-lg-7 rounded-right pt-0 pl-0 pr-0 pl-lg-4 pr-lg-4 pb-4 text-light">
+		   		 		<div class="card  border txt-1">
+		   		 			<div class="card-header card-custom-header text-dark text-center">
+		   		 				<h3>Ozón a jeho účinky</h3>
+		   		 			</div>
+					    	<div class="card-body card-custom">
+						    	<p>Ozón je overený a dôkladne testovaný dezinfekčný prostriedok.
+						    		<br>
+						    		<ul class="list-group pb-3">
+						    			<li class="list-group-item bg-transparent border-0">
+						    				<i class="fas fa-angle-right angle-shad"></i> Predstavuje veľmi efektívnu alternatívu dezinfekcie chlórovými prípravkami alebo UV žiarením.</li>
+						    			<li class="list-group-item bg-transparent border-0">
+						    				<i class="fas fa-angle-right angle-shad"></i> Používa sa tiež vo veľmi prísnych postupoch HACCP.</li>
+						    			<li class="list-group-item bg-transparent border-0">
+						    				<i class="fas fa-angle-right angle-shad"></i> Svojou vysokou mikrobiocídnou účinnosťou zaručuje s vysokou efektivitou usmrtenie takmer všetkých známych vírov, baktérií a spór plesní</li>
+						    				<li class="list-group-item bg-transparent border-0">
+						    				<i class="fas fa-angle-right angle-shad"></i>
+						    			Je schválený americkou agentúrou FDA, USDA, USDA Organic, ako aj poľským Sanepidom a ministerstvom zdravotníctva.</li>
+						    		</ul>
+								<span class="badge badge-warning">Info:</span> Likviduje i tie patogény, ktoré sú voči pôsobeniu chlórových prípravkov odolné.Výhodou je, že ozón ako plyn preniká do všetkých kútov, škár, štrbín, i pórov všetkých materiálov.</p>
+								<p>Výnimočné vlastnosti ozónu je možné využiť k dezinfekcii a dezodorácii uzavretých priestorov a ich zariadení.</p> 
+					    	</div>
+						</div>
+		    		</div>
+				</div>
+			<!-- kratky header -->
+			<!-- 3 ikony vedla seba - domov, office, auto -->
+				<div class="row ml-0 mr-0">
+					<div class="col-md-12 col-lg-12 mx-auto">
+						<div class="container pl-0 pr-0 pl-md-1 pr-md-1">
+							<div class="row pt-2 mb-lg-4">
+								<div class="col-lg-6 text-center mx-auto text-light txt-custom-h2">
+									<h2>Chcete sa nadobro zbaviť baktérií? Ozónujte!</h2>
+								</div>
+							</div>
+							<div class="row p-4">
+					    		<div class="col-lg-4 col-md-4 pb-4 text-center ">
+					    			<div class="card bg-transparent card-custom-noborder">
+					    				<img src="css/pictures/2_Home-icon.png" class="card-img-top air-ico mx-auto pt-2 pb-2">
+					    				<div class="card-body card-body-air mt-0">
+					    					<h5>ODSTRÁŇTE BAKTÉRIE Z DOMOVA</h5>
+					    					<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend lacus nec eros ullamcorper, ut dictum leo suscipit. Etiam eu.</p>
+					    				</div>
+					    			</div>
+					    		</div>
+				    			<div class="col-lg-4 col-md-4 pb-4 text-center ">
+				    				<div class="card bg-transparent card-custom-noborder">
+				    					<img src="css/pictures/office-icon.png" class="card-img-top air-ico mx-auto pt-2 pb-2">
+				    					<div class="card-body card-body-air mt-0">
+				    						<h5>PRACUJTE V ZDRAVOM OVZDUŠÍ</h5>
+				    						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend lacus nec eros ullamcorper, ut dictum leo suscipit. Etiam eu.</p>
+				    					</div>
+				    				</div>
+				    			</div>
+				    			<div class="col-lg-4 col-md-4 pb-4 text-center ">
+				    				<div class="card bg-transparent card-custom-noborder">
+				    					<img src="css/pictures/car-icon.png" class="card-img-top air-ico mx-auto pt-2 pb-2">
+				    					<div class="card-body card-body-air mt-0">
+				    						<h5>DOPRAJTE DEZINFEKCIU SVOJMU AUTU</h5>
+				    						<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus eleifend lacus nec eros ullamcorper, ut dictum leo suscipit. Etiam eu.</p>
+				    					</div>
+				    				</div>
+				    			</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+ 		</section>
+<!-- Uvod - OZON a nasa spolocnost-->
+		<section id="home">
+			<div class="jumbotron text-center mt-0 mb-0 pt-4 pb-4 section-header">
+				<div id="airnesshome">	
+				</div>
+				<h2>Našli ste čo ste hladali</h2>
+			</div>
+			<div class="container-fluid min-vh-100 pt-4 pb-4 pl-0 pr-0" id="uvod">
+				<div class="row ml-0 mr-0 mt-4 pt-2 pb-2">
+					<div class="col-10 offset-2 text-center text-black section_head">
+						<h2>Sme dôslední</h2>
+					</div>
+				</div>
+				<div class="row ml-0 mr-0 mt-3 p-4 mb-3">
+			   		 <div class="col-md-6 offset-md-5 border rounded-left rounded-right p-4 text-light txt-1">
+			      		<p>Dezinfekčný účinok ozónu začína až od hranice koncentrácie 13mg/m<sub>3</sub> - pri tejto hodnote už dochádza k zabíjaniu mikroorganizmov.
+			      		</p>
+			      		<p>Aby bola dezinfekcia účinná a vaša investícia mala zmysel, je veľmi dôležité meranie koncentrácie ozónu.</p>
+			      		</p>
+			      		<p>Používame kvalitné, presné detektory O<sub>3</sub>, vďaka ktorým vieme čistiť efektívne a dôsledne.</p>
+			    	</div>
+				</div>
+				<div class="row ml-0 mr-0 mt-4 pt-2 pb-2">
+					<div class="col-10 text-center text-black section_head-l">
+						<h2>Inovujeme</h2>
+					</div>
+				</div>
+				<div class="row ml-0 mr-0 mt-4 p-4 mb-3">
+		   			<div class="col-md-6 offset-md-1 border rounded-left rounded-right p-4 text-light txt-1">
+		      			<p class="mb-0">Neustále sledujeme výskum a vývoj nových technológií v oblasti využitia ozónu v praxi.
+		      			<br>
+		      			Nové poznatky následne aplikujeme nielen do nami ponúkaných služieb, ale aj našich ďalších výrobkov nakoľko sa spolupodielame na výrobe týchto zariadení.</p>
+		    		</div>
+				</div>
+				<div class="row ml-0 mr-0 mt-4 pt-2 pb-2">
+					<div class="col-10 offset-2 text-center text-black section_head">
+						<h2>Dbáme na bezpečnosť</h2>
+					</div>
+				</div>
+				<div class="row ml-0 mr-0 mt-3 p-4 mb-0">
+		   		 	<div class="col-md-6 offset-md-5 border rounded-left rounded-right p-4 text-light txt-1">
+		   		 		<p>Pri dezinfekcii dbáme na vašu i našu bezpečnosť a preto:</p>
+		   		 		<ul>
+		   		 	 		<li><p>Po každom procese dezinfekcie meriame hodnoty O<sub>3</sub> </p></li>
+		   		 	 		<li><p>Naši vyškolení pracovníci vykonávajú čistenie v ochranných maskách</p></li>
+		   		 		 </ul> 
+		      			<p class="mb-0">Pri dodržaní bezpečnostných opatrení je dezinfekcia ozónom vysoko účinná a plne bezpečná.</p>
+		    		</div>
+				</div>
+			</div>
+		</section>
+<!-- Cennik -->
+		<section>
+			<div class="jumbotron text-center mt-0 mb-0 pt-4 pb-4 section-header">
+				<div id="cennik">	
+				</div>
+				<h2>Cenník</h2>
+			</div>
+			<div class="container-fluid pl-0 pr-0">
+			<!-- Dezinfekcia a dezodorácia priestorov -->
+				<div class="text-center price_header_1">
+					<h3>Dezinfekcia a dezodorácia priestorov</h3>
+				</div>
+				<div class="row  m-0 p-0 backg_own_1">
+					<div class="col-md-12 p-0 test_border_yellow">
+						<div class="row  m-0 p-2 pt-4 pb-4">
+						<!-- Komercne -->
+							<div class="col-md pad_0_40rem">
+								<div class="card mh-100">
+									<div class="card-header text-center bg-dark text-white pad_0_40rem"><h3>Komerčné priestory</h3></div>
+									<table class="table table-bordered table-hover table-striped price-tab">
+										<thead class="thead-dark">
+											<tr>
+												<th>Vymera priestoru v m<sup>2</sup></th>
+												<th>Cena m<sup>2</sup>/eur</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr><td>do 50m<sup>2</sup></td><td>3,00 €</td></tr>
+											<tr><td>50m<sup>2</sup> - 100m<sup>2</sup></td><td>2,80 €</td></tr>
+											<tr><td>100m<sup>2</sup> - 200m<sup>2</sup></td><td>2,50 €</td></tr>
+											<tr><td>200m<sup>2</sup> - 400m<sup>2</sup></td><td>1,60 €</td></tr>
+										</tbody>
+								</table>
+								</div>
+							</div>
+							<!-- Domacnost -->
+							<div class="col-md pad_0_40rem">
+								<div class="card mh-100">
+									<div class="card-header text-center bg-dark text-white pad_0_40rem"><h3>Domácnosti</h3></div>
+										<table class="table  table-bordered table-hover table-striped price-tab">
+											<thead class="thead-dark">
+												<tr>
+													<th>Vymera priestoru v m<sup>2</sup></th>
+													<th>Cena m<sup>2</sup>/eur</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr><td>do 50m<sup>2</sup></td><td>2,50 €</td></tr>
+												<tr><td>50m<sup>2</sup> - 100m<sup>2</sup></td><td>2,40 €</td></tr>
+												<tr><td>100m<sup>2</sup> - 200m<sup>2</sup></td><td>2,30 €</td></tr>
+												<tr><td>200m<sup>2</sup> - 400m<sup>2</sup></td><td>2,20 €</td></tr>
+												<tr><td>400m<sup>2</sup> - viac</td><td>Cena sa tvorí individuálne</td></tr>
+											</tbody>
+									</table>
+									<div class="card-footer text-muted pad_0_40rem">
+										<p class="text-left">Minimálna cena služby je 75,00 €.<br>
+										Pri väčších priestoroch , alebo väčších celkoch sa cena tvorí individuálne.</p>
+									</div>
+								</div>
+							</div>
+							<!-- Auta -->
+							<div class="col-md pad_0_40rem">
+								<div class="card mh-100">
+									<div class="card-header text-center bg-dark text-white pad_0_40rem"><h3>Automobily</h3></div>
+										<table class="table  table-bordered table-hover table-striped price-tab">
+											<thead class="thead-dark">
+												<tr>
+													<th>Typ vozidla</th>
+													<th>Cena</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr><td>Osobný automobil</td><td>30,00 €</td></tr>
+												<tr><td>Dodávka - 1 priestorová</td><td>35,00 €</td></tr>
+												<tr><td>Dodávka - 2 priestorová</td><td>50,00 €</td></tr>
+												<tr><td>Minibusy, Autobusy a iné dopravné prostriedky</td><td>dohodou podľa veľkosti a objemu dezinfikovaného priestoru</td></tr>
+											</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
 
-    <!-- <link rel="stylesheet" type="text/css" href="css/main.css"/> -->
-    <style>
-    .preloader{
-       position: absolute;
-       top: 0;
-       left: 0;
-       width: 100%;
-       height: 100%;
-       z-index: 9999;
-       background-image: url("preloader.gif");
-       background-repeat: no-repeat;
-       background-position: center;
-       background-color: #FFF;
-    }
-    </style>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <!-- <script src="C:\Users\racekj\Desktop\gitAirnessWeb\scripts\easy.js"></script> -->
-    <script src="scripts\easy.js"></script>
-	<link rel="stylesheet" type="text/css" href="css/reset.css">
-    <link rel="stylesheet" type="text/css" href="css/large.css"/>
-<!-- ........................ Zobrazenia ........................ -->
-<!-- Telefony -->
-    <!-- <link rel="stylesheet" media="screen and (max-width: 599px)" href="css/phone.css"/> -->
-<!-- Velke telefony, portret tablety -->
-    <!-- <link rel="stylesheet" media='screen and (min-width: 600px)' href="css/tablet.css"/> -->
-<!-- Landscape tablety -->
-    <!-- <link rel="stylesheet" media='screen and (min-width: 768px)' href="css/landscape.css"/> -->
-<!-- Desktopy -->
-    <!-- <link rel="stylesheet" media='screen and (min-width: 992px)' href="css/desktop.css"/> -->
-<!-- Najvacsi viewport -->
-    <title>Airness</title>
-  </head>
-  <body>
-    <div class="preloader"></div>
-    <div class="all-wrapper">
-      <div class="navi-wrap">
-         <div class="nav">
-            <ul>
-              <li><a href="#w1" id="nav-home"><span>Home</span></a></li>
-              <li><a href="#w2" id="nav-gallery"><span>Gallery</span></a></li>
-              <li><a href="#w3" id="nav-partners"><span>About</span></a></li>
-              <li><a href="#w4" id="nav-contact"><span>Contact</span></a></li>
-            </ul>
-        </div>
-      </div>
-      <div class="scrolling-wrapper">
-            <div id="w1" class="slide">
-              <div id="home">
-                <div id="popis">
-                    <ul>
-                      <li>Vzduchotechnika</li>
-                      <li>Klimatizácia</li>
-                      <li>Tepelné čerpadlá</li>
-                      <li>Čistenie ozónom</li>
-                    </ul>
-                </div>
-              </div>
-            </div>
-            <div class="separator" id="w-g">
-              <div class="galery-grid">
-                <!-- <div class="grid-item">
-                  <img data-src="https://source.unsplash.com/random/400x400?bear,cat&v=1" alt="something">
-                </div>
-                <div class="grid-item item-2">
-                  <img data-src="https://source.unsplash.com/random/400x400?bear,cat&v=1" alt="something">
-                </div>
-                <div class="grid-item item-3">
-                  <img data-src="https://source.unsplash.com/random/400x400?bear,cat&v=1" alt="something">
-                </div>
-                <div class="grid-item item-4">
-                  <img data-src="https://source.unsplash.com/random/400x400?bear,cat&v=1" alt="something">
-                </div>
-                <div class="grid-item item-5">
-                  <img data-src="https://source.unsplash.com/random/400x400?bear,cat&v=1" alt="something">
-                </div>
-                <div class="grid-item item-6">
-                  <img data-src="https://source.unsplash.com/random/400x400?bear,cat&v=1" alt="something">
-                </div>
-                <div class="grid-item item-7">
-                  <img data-src="https://source.unsplash.com/random/400x400?bear,cat&v=1" alt="something">
-                </div>
-                <div class="grid-item item-8">
-                  <img data-src="https://source.unsplash.com/random/400x400?bear,cat&v=1" alt="something">
-                </div> -->
-                <!-- <div class="grid-item item-9">
-                  <img src="https://source.unsplash.com/random/400x400?bear,cat&v=1" alt="something">
-                </div>
-                <div class="grid-item item-10">
-                  <img src="https://source.unsplash.com/random/400x400?bear,cat&v=1" alt="something">
-                </div> -->
-            </div>
-            </div>
-            <div id="w2" class="slide">
-              <div class="galery-grid">
-              </div>
-            </div>
-            <div class="separator">
-            </div>
-            <div id="w3" class="slide">
-            </div>
-            <div class="separator">
-            </div>
-            <div id="w4" class="slide">
-              <div id="contact">
-              </div>
-          </div>
-      </div>
-  </div>
-  </body>
+				<!-- Dezinfekcia a dezodorácia VZT zariadení a potrubných rozvodov -->
+				<div class="text-center price_header">
+					<h3>Dezinfekcia a dezodorácia potrubných rozvodov, VZT a rekuperačných zariadení</h3>
+				</div>
+				<div class="row  m-0 p-0 backg_own_2">
+					<div class="col-md-12 p-0 test_border_yellow">
+						<div class="row  m-0 p-2 pt-4 pb-4">
+							<!-- Komercne -->
+							<div class="col-md pad_0_40rem">
+								<div class="card mh-100">
+									<div class="card-header text-center bg-dark text-white pad_0_40rem"><h3>Komerčné priestory</h3></div>
+									<table class="table table-bordered table-hover table-striped price-tab">
+										<thead class="thead-dark">
+											<tr>
+												<th>Vzduchový výkon zariadenia v m<sup>3</sup>/hod</th>
+												<th>Cena za 1m<sup>3</sup></th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr><td>do 1000 m<sup>3</sup>/hod</td><td>0,30 €</td></tr>
+											<tr><td>1000 m<sup>3</sup>/hod - 5000 m<sup>3</sup>/hod</td><td>0,25 €</td></tr>
+										</tbody>
+									</table>
+									<div class="card-footer text-muted pad_0_40rem">
+										<p class="text-left">Pri väčších alebo viacero zariadeniach a veľkých vzduchotechnických celkoch sa cena tvorí individuálne v závislosti na miere znečistenia, vzduchovom objeme, dĺžke a komplikovanosti celého systému distribúcie vzduchu.</p>
+									</div>
+								</div>
+							</div>
+							<!-- Domacnost -->
+							<div class="col-md pad_0_40rem">
+								<div class="card mh-100">
+									<div class="card-header text-center bg-dark text-white pad_0_40rem"><h3>Domácnosti</h3></div>
+										<table class="table  table-bordered table-hover table-striped price-tab">
+											<thead class="thead-dark">
+												<tr>
+													<th>Vzduchový výkon zariadenia v m<sup>3</sup>/hod</th>
+													<th>Cena za 1m<sup>3</sup></th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr><td>do 250 m<sup>3</sup>/hod</td><td>0,50 €</td></tr>
+												<tr><td>250 m<sup>3</sup>/hod - 500 m<sup>3</sup>/hod</td><td>0,45 €</td></tr>
+												<tr><td>500 m<sup>3</sup>/hod - 750 m<sup>3</sup>/hod</td><td>0,40 €</td></tr>
+												<tr><td>750 m<sup>3</sup>/hod - 1000 m<sup>3</sup>/hod</td><td>0,35 €</td></tr>
+												<tr><td>1000 m<sup>3</sup>/hod - 1500 m<sup>3</sup>/hod</td><td>0,30 €</td></tr>
+												<tr><td>1500 m<sup>3</sup>/hod - 5000 m<sup>3</sup>/hod</td><td>0,25 €</td></tr>
+											</tbody>
+									</table>
+									<div class="card-footer text-muted pad_0_40rem">
+										<p class="text-left">Pri veľmi malých výkonoch minimálna sadzba služby je 100,00 €</p>
+									</div>
+								</div>
+							</div>
+							<!-- Auta -->
+						</div>
+					</div>
+				</div>
+
+				<!-- Dezinfekcia a dezodorácia cirkulačných klimatizačných zariadení a potrubných rozvodov -->
+				<div class="text-center price_header">
+					<h3>Dezinfekcia a dezodorácia cirkulačných klimatizačných zariadení a potrubných rozvodov</h3>
+				</div>
+				<div class="row  m-0 p-0 backg_own_3">
+					<div class="col-md-12 p-0 test_border_yellow">
+						<div class="row  m-0 p-2 pt-4 pb-4">
+						<!-- Komercne -->
+							<div class="col-md-6 pad_0_40rem mx-auto">
+								<div class="card mh-100">
+									<div class="card-header text-center bg-dark text-white pad_0_40rem"><h3>Komerčné priestory</h3></div>
+									<table class="table table-bordered table-hover table-striped price-tab">
+										<thead class="thead-dark">
+											<tr>
+												<th>Výkon (chladiaci/vykurovací) v kW</th>
+												<th>Cena za kus</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr><td>do 5 kW</td><td>100 €</td></tr>
+											<tr><td>5-10 kW</td><td>150 €</td></tr>
+											<tr><td>10-15 kW</td><td>175 €</td></tr>
+											<tr><td>15-20 kW</td><td>200 €</td></tr>
+										</tbody>
+									</table>
+									<div class="card-footer text-muted pad_0_40rem">
+										<p class="text-left">Pri väčšom počte zariadení individuálna cena.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<div  id="contact" class="container bg-dark pt-2 noselect">
+		<button type="button" class="close exitt" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		</button>
+		<div class="row ml-0 mr-0 text-center bg-dark text-white">
+			<div class="col-12">
+				<h3>Kontakt</h3>
+			</div>
+		</div>
+		<div class="row ml-0 mr-0 test pt-3 mr-0 ml-0 bg-light">
+			<div class="col  tel">
+				<h4 class="text-center"><i class="fa fa-phone-square" aria-hidden="true"></i> Tel. čísla</h4>
+				<ul class="list-group text-center select">
+					<li class="list-group-item">0903 421 246</li>
+					<li class="list-group-item">0903 246 527</li>
+				</ul>
+			</div>
+			<div class="col mail ">
+				<h4 class="text-center"><i class="fa fa-envelope" aria-hidden="true"></i> Mail</h4>
+				<ul class="list-group  text-center select">
+					<li class="list-group-item">airness@airness.sk</li>
+				</ul>
+			</div>
+			<div class="col sidlo ">
+				<h4 class="text-center"><i class="fa fa-map-marker" aria-hidden="true"></i> Sídlo</h4>
+				<ul class="list-group text-center select">
+					<li class="list-group-item">Malé Leváre 493</li>
+					<li class="list-group-item">90874</li>
+				</ul>
+			</div>
+		</div>
+		<!-- <p>František Ráček 0903 421 246 <br>
+		Airness s.r.o.<br>
+		Gaštanová 11 <br>
+		Malacky <br>
+		901 01 <br>
+		IČO : 51132729 <br>
+		IČ DPH : SK2120601362</p> -->
+		<div class="row ml-0 mr-0  bg-light test-sides pt-3">
+			<div class="col-12">
+				<h4 class="text-center bord-not-bot pt-3 pb-2"><i class="fa fa-credit-card-alt" aria-hidden="true"></i> Fakturačné údaje</h4>
+				<div class="row ml-0 mr-0 ">
+					<div class="col  text-center ">
+						<p>IČO: 52977609</p>
+					</div>
+					<div class="col  text-center ">
+						<p>DIČ: 2121219023</p>
+					</div>
+				</div>
+				<p class="text-center"><small class="text-muted">Spoločnosť zapísaná v OR Okresného súdu v Nitre, oddiel Sro, Vložka číslo: 50706/N</small></p>
+				<!-- <p>Spoločnosť zapísaná v OR Okresného súdu v Nitre, oddiel Sro, Vložka číslo: 50706/N</p> -->
+			</div>
+		</div>
+	</div>
+	<!--Javascript insertion-->
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="javascript/bootstrap-arrows.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+	<!-- <script type="text/javascript" src="javascript/jquery.js"></script> -->
+	<!-- <script type="text/javascript" src="javascript/bootstrap.js"></script> -->
+	<script type="text/javascript" src="javascript/airness.js"></script>
+
+	
+	<!-- <script src="javascript/airness.js" crossorigin="anonymous"></script> -->
+</body>
+<!-- <script type="text/javascript" src="javascript/bootstrap-arrows.js"></script> -->
 </html>
